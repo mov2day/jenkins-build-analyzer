@@ -1,9 +1,4 @@
 import { useState, useMemo, useCallback, useEffect } from "react";
-import {
-  AreaChart, Area, BarChart, Bar, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, Cell
-} from "recharts";
-
 /* ── Google Fonts ── */
 const fontLink = document.createElement("link");
 fontLink.rel = "stylesheet";
